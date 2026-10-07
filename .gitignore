@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# SQLite Database / Local persistence
+*.db
+*.sqlite3
+chats/
+
+# Streamlit local settings
+.streamlit/config.toml
+.streamlit/secrets.toml
